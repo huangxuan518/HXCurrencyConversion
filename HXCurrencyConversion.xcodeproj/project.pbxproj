@@ -11,6 +11,7 @@
 		E49A5D7F1D52E43400CCBE4B /* HXRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E49A5D7E1D52E43400CCBE4B /* HXRequestManager.m */; };
 		E49A5D831D52EBE600CCBE4B /* HXCurrencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E49A5D821D52EBE600CCBE4B /* HXCurrencyManager.m */; };
 		E49A5D861D5336EF00CCBE4B /* xiaoguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = E49A5D851D5336EF00CCBE4B /* xiaoguo.gif */; };
+		E49A5D881D5337EA00CCBE4B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E49A5D871D5337EA00CCBE4B /* README.md */; };
 		E4B824741D51C7C90053DEB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B824731D51C7C90053DEB3 /* main.m */; };
 		E4B824771D51C7C90053DEB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B824761D51C7C90053DEB3 /* AppDelegate.m */; };
 		E4B8247F1D51C7C90053DEB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B8247E1D51C7C90053DEB3 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		E49A5D811D52EBE600CCBE4B /* HXCurrencyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCurrencyManager.h; sourceTree = "<group>"; };
 		E49A5D821D52EBE600CCBE4B /* HXCurrencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCurrencyManager.m; sourceTree = "<group>"; };
 		E49A5D851D5336EF00CCBE4B /* xiaoguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xiaoguo.gif; sourceTree = "<group>"; };
+		E49A5D871D5337EA00CCBE4B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E4B8246F1D51C7C90053DEB3 /* HXCurrencyConversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXCurrencyConversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B824731D51C7C90053DEB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4B824751D51C7C90053DEB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 		E4B824661D51C7C90053DEB3 = {
 			isa = PBXGroup;
 			children = (
+				E49A5D871D5337EA00CCBE4B /* README.md */,
 				E4B824711D51C7C90053DEB3 /* HXCurrencyConversion */,
 				E4B824701D51C7C90053DEB3 /* Products */,
 			);
@@ -211,6 +214,7 @@
 				E49A5D7F1D52E43400CCBE4B /* HXRequestManager.m in Sources */,
 				E4B824771D51C7C90053DEB3 /* AppDelegate.m in Sources */,
 				E49A5D7B1D52E19A00CCBE4B /* HXCurrencySelectionViewController.m in Sources */,
+				E49A5D881D5337EA00CCBE4B /* README.md in Sources */,
 				E4B8248F1D51C9520053DEB3 /* HXHomeViewController.m in Sources */,
 				E49A5D831D52EBE600CCBE4B /* HXCurrencyManager.m in Sources */,
 				E4B824741D51C7C90053DEB3 /* main.m in Sources */,
