@@ -10,6 +10,7 @@
 		E49A5D7B1D52E19A00CCBE4B /* HXCurrencySelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49A5D7A1D52E19A00CCBE4B /* HXCurrencySelectionViewController.m */; };
 		E49A5D7F1D52E43400CCBE4B /* HXRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E49A5D7E1D52E43400CCBE4B /* HXRequestManager.m */; };
 		E49A5D831D52EBE600CCBE4B /* HXCurrencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E49A5D821D52EBE600CCBE4B /* HXCurrencyManager.m */; };
+		E49A5D861D5336EF00CCBE4B /* xiaoguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = E49A5D851D5336EF00CCBE4B /* xiaoguo.gif */; };
 		E4B824741D51C7C90053DEB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B824731D51C7C90053DEB3 /* main.m */; };
 		E4B824771D51C7C90053DEB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B824761D51C7C90053DEB3 /* AppDelegate.m */; };
 		E4B8247F1D51C7C90053DEB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B8247E1D51C7C90053DEB3 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		E49A5D7E1D52E43400CCBE4B /* HXRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXRequestManager.m; sourceTree = "<group>"; };
 		E49A5D811D52EBE600CCBE4B /* HXCurrencyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCurrencyManager.h; sourceTree = "<group>"; };
 		E49A5D821D52EBE600CCBE4B /* HXCurrencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCurrencyManager.m; sourceTree = "<group>"; };
+		E49A5D851D5336EF00CCBE4B /* xiaoguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xiaoguo.gif; sourceTree = "<group>"; };
 		E4B8246F1D51C7C90053DEB3 /* HXCurrencyConversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXCurrencyConversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B824731D51C7C90053DEB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4B824751D51C7C90053DEB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		E4B824721D51C7C90053DEB3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E49A5D851D5336EF00CCBE4B /* xiaoguo.gif */,
 				E4B824941D51E2210053DEB3 /* currencycodetable.plist */,
 				E4B8247E1D51C7C90053DEB3 /* Assets.xcassets */,
 				E4B824831D51C7C90053DEB3 /* Info.plist */,
@@ -194,6 +197,7 @@
 				E4B8247F1D51C7C90053DEB3 /* Assets.xcassets in Resources */,
 				E4B824901D51C9520053DEB3 /* HXHomeViewController.xib in Resources */,
 				E4B824951D51E2210053DEB3 /* currencycodetable.plist in Resources */,
+				E49A5D861D5336EF00CCBE4B /* xiaoguo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
