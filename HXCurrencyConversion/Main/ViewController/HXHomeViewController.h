@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HXHomeViewController.h
 //  HXCurrencyConversion
 //
 //  Created by 黄轩 on 16/8/3.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HXHomeViewController : UIViewController
 
 @end
-
