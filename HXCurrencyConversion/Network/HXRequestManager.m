@@ -2,7 +2,6 @@
 //  HXRequestManager.m
 //  HXCurrencyConversion https://github.com/huangxuan518/HXCurrencyConversion
 //  博客地址 http://blog.libuqing.com/
-//
 //  Created by 黄轩 on 16/8/4.
 //  Copyright © 2016年 黄轩. All rights reserved.
 //
