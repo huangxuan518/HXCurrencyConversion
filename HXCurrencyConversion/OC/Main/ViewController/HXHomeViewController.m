@@ -56,8 +56,8 @@
         
         [self refreshData:responseDic];
         
-    } failure:^(NSString *localizedDescription, NSInteger code) {
-        NSLog(@"Httperror: %@%ld", localizedDescription, code);
+    } failure:^(NSString *localizedDescription) {
+        NSLog(@"Httperror: %@", localizedDescription);
     }];
 }
 

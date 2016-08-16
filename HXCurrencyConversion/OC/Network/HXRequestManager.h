@@ -19,7 +19,7 @@
  *  @param failure <#failure description#>
  */
 - (void)getCurrencySupportListRequest:(void(^)(NSArray *responseAry, NSInteger responseCode))success
-                              failure:(void(^)(NSString *localizedDescription, NSInteger code))failure ;
+                              failure:(void(^)(NSString *localizedDescription))failure ;
 
 /**
  *  汇率转换 http://apis.baidu.com/apistore/currencyservice/currency?fromCurrency=%@&toCurrency=%@&amount=%@
@@ -34,6 +34,6 @@
                                               toCurrency:(NSString *)toCurrency
                                                   amount:(NSString *)amount
                                                  success:(void(^)(NSDictionary *responseDic, NSInteger responseCode))success
-                                                 failure:(void(^)(NSString *localizedDescription, NSInteger code))failure;
+                                                 failure:(void(^)(NSString *localizedDescription))failure;
 
 @end

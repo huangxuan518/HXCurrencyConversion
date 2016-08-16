@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1808" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HXHomeSwiftViewController" customModule="HXCurrencyConversion" customModuleProvider="target">
+            <connections>
+                <outlet property="_displayLabel" destination="VdM-jB-fIL" id="POo-gg-as4"/>
+                <outlet property="_exchangeRateLabel" destination="6Yv-DM-hbe" id="3He-rG-4KC"/>
+                <outlet property="_fromCurrencyLabel" destination="Lls-jY-AOb" id="Tdv-jy-tEG"/>
+                <outlet property="_toCurrencyLabel" destination="2D0-TL-dkO" id="YFB-Po-pgj"/>
+                <outlet property="_updateTimeLabel" destination="fBv-xf-qMH" id="yh1-gN-RLL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="currency_exchange" translatesAutoresizingMaskIntoConstraints="NO" id="pnR-Y4-fJP">
+                    <rect key="frame" x="10" y="73" width="60" height="60"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="Dks-bt-0Lq"/>
+                        <constraint firstAttribute="width" constant="60" id="rNt-9Z-BvT"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="货币兑换" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jcn-YC-QLd">
+                    <rect key="frame" x="80" y="82" width="68" height="17"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="cuw-Pl-aTi"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="17" id="wjo-OJ-O9S"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1人民币元=5.2555泰铢" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VdM-jB-fIL">
+                    <rect key="frame" x="80" y="109" width="145" height="14"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="14" id="nL9-E9-x9s"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="14" id="v6U-VD-fZc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="当前汇率:0.2543" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Yv-DM-hbe">
+                    <rect key="frame" x="10" y="146" width="106.5" height="14"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="14" id="Aw9-zr-fAj"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="14" id="oQS-2c-Phb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="原始币种类型:人民币CNY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lls-jY-AOb">
+                    <rect key="frame" x="10" y="170" width="159.5" height="14"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="14" id="EAE-qZ-fNW"/>
+                        <constraint firstAttribute="height" constant="14" id="Ytu-Wh-DX1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lE3-5G-Ja3">
+                    <rect key="frame" x="260" y="168" width="50" height="18"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="S5Y-dW-1pL"/>
+                        <constraint firstAttribute="width" constant="50" id="kre-rb-jux"/>
+                    </constraints>
+                    <state key="normal" image="arrow_right"/>
+                    <connections>
+                        <action selector="currencySelectionButtonAction:" destination="-1" eventType="touchUpInside" id="cci-VT-nYk"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="目标币种类型:泰铢THB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2D0-TL-dkO">
+                    <rect key="frame" x="10" y="194" width="144.5" height="14"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="14" id="KLg-Vh-4qK"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="14" id="iMo-7G-D9H"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XSD-XX-XMe">
+                    <rect key="frame" x="260" y="194" width="50" height="14"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="anU-jk-re3"/>
+                        <constraint firstAttribute="height" constant="14" id="mBQ-fe-SiA"/>
+                    </constraints>
+                    <state key="normal" image="arrow_right"/>
+                    <connections>
+                        <action selector="currencySelectionButtonAction:" destination="-1" eventType="touchUpInside" id="x6V-9y-OAU"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入需要兑换的原始币种数量" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gBl-r7-VEQ">
+                    <rect key="frame" x="8" y="225" width="217" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                    <connections>
+                        <action selector="textFieldEditingChange:" destination="-1" eventType="editingChanged" id="d76-QD-yVw"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1hT-3F-9PT">
+                    <rect key="frame" x="234" y="222" width="30" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="46h-lt-u2h"/>
+                        <constraint firstAttribute="height" constant="35" id="GEE-Kf-WrR"/>
+                    </constraints>
+                    <state key="normal" image="transformation"/>
+                    <connections>
+                        <action selector="exchangeButtonAction:" destination="-1" eventType="touchUpInside" id="1pX-f3-pA1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eUT-5O-9g9">
+                    <rect key="frame" x="270" y="225" width="40" height="32"/>
+                    <color key="backgroundColor" red="0.14117647058823529" green="0.69803921568627447" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="2OI-Nu-rLS"/>
+                        <constraint firstAttribute="height" constant="32" id="XJE-cb-Rkw"/>
+                    </constraints>
+                    <state key="normal" title="转换">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="transformationButtonAction:" destination="-1" eventType="touchUpInside" id="6eE-aw-tYc"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="数据仅供参考，交易时以银行柜台成交价为准 更新时间:2016-08-04 14:34" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBv-xf-qMH">
+                    <rect key="frame" x="10" y="266" width="300" height="29"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="lE3-5G-Ja3" secondAttribute="trailing" constant="10" id="08M-k3-bed"/>
+                <constraint firstItem="pnR-Y4-fJP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="73" id="1Qw-lE-4aH"/>
+                <constraint firstItem="Jcn-YC-QLd" firstAttribute="leading" secondItem="pnR-Y4-fJP" secondAttribute="trailing" constant="10" id="3H1-Yc-CGk"/>
+                <constraint firstItem="lE3-5G-Ja3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="168" id="5Rd-WM-sov"/>
+                <constraint firstItem="6Yv-DM-hbe" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="6B9-jo-C76"/>
+                <constraint firstAttribute="trailing" secondItem="fBv-xf-qMH" secondAttribute="trailing" constant="10" id="6gX-w7-bcd"/>
+                <constraint firstAttribute="trailing" secondItem="XSD-XX-XMe" secondAttribute="trailing" constant="10" id="DZt-RY-dq2"/>
+                <constraint firstItem="gBl-r7-VEQ" firstAttribute="top" secondItem="2D0-TL-dkO" secondAttribute="bottom" constant="17" id="IeV-aj-xVd"/>
+                <constraint firstItem="VdM-jB-fIL" firstAttribute="top" secondItem="Jcn-YC-QLd" secondAttribute="bottom" constant="10" id="JOd-5l-von"/>
+                <constraint firstItem="Jcn-YC-QLd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="82" id="Juo-M1-xMk"/>
+                <constraint firstItem="2D0-TL-dkO" firstAttribute="top" secondItem="Lls-jY-AOb" secondAttribute="bottom" constant="10" id="RhK-98-vyS"/>
+                <constraint firstItem="fBv-xf-qMH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="S2A-zP-pxG"/>
+                <constraint firstItem="eUT-5O-9g9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="225" id="bdF-jq-VN1"/>
+                <constraint firstItem="pnR-Y4-fJP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="cAz-GF-fyt"/>
+                <constraint firstItem="1hT-3F-9PT" firstAttribute="leading" secondItem="gBl-r7-VEQ" secondAttribute="trailing" constant="9" id="djC-ox-hRI"/>
+                <constraint firstItem="gBl-r7-VEQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="eQN-tR-65X"/>
+                <constraint firstItem="fBv-xf-qMH" firstAttribute="top" secondItem="gBl-r7-VEQ" secondAttribute="bottom" constant="11" id="eXr-Ae-EgD"/>
+                <constraint firstItem="6Yv-DM-hbe" firstAttribute="top" secondItem="pnR-Y4-fJP" secondAttribute="bottom" constant="13" id="hxD-OE-0uQ"/>
+                <constraint firstItem="2D0-TL-dkO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="kf8-gx-1By"/>
+                <constraint firstItem="eUT-5O-9g9" firstAttribute="leading" secondItem="1hT-3F-9PT" secondAttribute="trailing" constant="6" id="mNM-RF-lgg"/>
+                <constraint firstItem="Lls-jY-AOb" firstAttribute="top" secondItem="6Yv-DM-hbe" secondAttribute="bottom" constant="10" id="nLy-07-fid"/>
+                <constraint firstAttribute="trailing" secondItem="eUT-5O-9g9" secondAttribute="trailing" constant="10" id="opT-L5-aIc"/>
+                <constraint firstItem="XSD-XX-XMe" firstAttribute="top" secondItem="lE3-5G-Ja3" secondAttribute="bottom" constant="8" id="pmh-dO-uyz"/>
+                <constraint firstItem="Lls-jY-AOb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="rzi-2n-bj1"/>
+                <constraint firstItem="1hT-3F-9PT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="222" id="wlN-bg-GOw"/>
+                <constraint firstItem="VdM-jB-fIL" firstAttribute="leading" secondItem="pnR-Y4-fJP" secondAttribute="trailing" constant="10" id="ywP-JG-lSd"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="371" y="253"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow_right" width="7" height="12"/>
+        <image name="currency_exchange" width="60" height="60"/>
+        <image name="transformation" width="20" height="20"/>
+    </resources>
+</document>

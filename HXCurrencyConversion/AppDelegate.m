@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "HXHomeViewController.h"
+#import "HXCurrencyConversion-Swift.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +22,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    HXHomeViewController *vc = [HXHomeViewController new];
+    //OC版入口
+    //HXHomeViewController *vc = [HXHomeViewController new];
+    //swift版入口
+    HXHomeSwiftViewController *vc = [HXHomeSwiftViewController new];    
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
     

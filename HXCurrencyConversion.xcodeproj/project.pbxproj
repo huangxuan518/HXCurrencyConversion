@@ -7,38 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E49A5D7B1D52E19A00CCBE4B /* HXCurrencySelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49A5D7A1D52E19A00CCBE4B /* HXCurrencySelectionViewController.m */; };
-		E49A5D7F1D52E43400CCBE4B /* HXRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E49A5D7E1D52E43400CCBE4B /* HXRequestManager.m */; };
-		E49A5D831D52EBE600CCBE4B /* HXCurrencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E49A5D821D52EBE600CCBE4B /* HXCurrencyManager.m */; };
+		E440C69D1D617043002DC9BD /* HXCurrencySwiftManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440C69C1D617043002DC9BD /* HXCurrencySwiftManager.swift */; };
+		E440C69F1D6198A8002DC9BD /* HXCurrencySelectionSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440C69E1D6198A8002DC9BD /* HXCurrencySelectionSwiftViewController.swift */; };
 		E49A5D861D5336EF00CCBE4B /* xiaoguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = E49A5D851D5336EF00CCBE4B /* xiaoguo.gif */; };
 		E49A5D881D5337EA00CCBE4B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E49A5D871D5337EA00CCBE4B /* README.md */; };
+		E4A7CFE01D62C38200AE5C95 /* HXCurrencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A7CFD41D62C38200AE5C95 /* HXCurrencyManager.m */; };
+		E4A7CFE11D62C38200AE5C95 /* HXCurrencySelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A7CFD91D62C38200AE5C95 /* HXCurrencySelectionViewController.m */; };
+		E4A7CFE21D62C38200AE5C95 /* HXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A7CFDB1D62C38200AE5C95 /* HXHomeViewController.m */; };
+		E4A7CFE31D62C38200AE5C95 /* HXHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4A7CFDC1D62C38200AE5C95 /* HXHomeViewController.xib */; };
+		E4A7CFE41D62C38200AE5C95 /* HXRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A7CFDF1D62C38200AE5C95 /* HXRequestManager.m */; };
 		E4B824741D51C7C90053DEB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B824731D51C7C90053DEB3 /* main.m */; };
 		E4B824771D51C7C90053DEB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B824761D51C7C90053DEB3 /* AppDelegate.m */; };
 		E4B8247F1D51C7C90053DEB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B8247E1D51C7C90053DEB3 /* Assets.xcassets */; };
-		E4B8248F1D51C9520053DEB3 /* HXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8248D1D51C9520053DEB3 /* HXHomeViewController.m */; };
-		E4B824901D51C9520053DEB3 /* HXHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4B8248E1D51C9520053DEB3 /* HXHomeViewController.xib */; };
 		E4B824951D51E2210053DEB3 /* currencycodetable.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4B824941D51E2210053DEB3 /* currencycodetable.plist */; };
+		E4BC6D8C1D54745F00CB4CA6 /* HXHomeSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BC6D8B1D54745F00CB4CA6 /* HXHomeSwiftViewController.swift */; };
+		E4BC6D911D547B1200CB4CA6 /* HXHomeSwiftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4BC6D901D547B1200CB4CA6 /* HXHomeSwiftViewController.xib */; };
+		E4BC6D931D5480A700CB4CA6 /* HXRequestSwiftManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BC6D921D5480A700CB4CA6 /* HXRequestSwiftManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E49A5D791D52E19A00CCBE4B /* HXCurrencySelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCurrencySelectionViewController.h; sourceTree = "<group>"; };
-		E49A5D7A1D52E19A00CCBE4B /* HXCurrencySelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCurrencySelectionViewController.m; sourceTree = "<group>"; };
-		E49A5D7D1D52E43400CCBE4B /* HXRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXRequestManager.h; sourceTree = "<group>"; };
-		E49A5D7E1D52E43400CCBE4B /* HXRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXRequestManager.m; sourceTree = "<group>"; };
-		E49A5D811D52EBE600CCBE4B /* HXCurrencyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCurrencyManager.h; sourceTree = "<group>"; };
-		E49A5D821D52EBE600CCBE4B /* HXCurrencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCurrencyManager.m; sourceTree = "<group>"; };
+		E440C69C1D617043002DC9BD /* HXCurrencySwiftManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXCurrencySwiftManager.swift; sourceTree = "<group>"; };
+		E440C69E1D6198A8002DC9BD /* HXCurrencySelectionSwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXCurrencySelectionSwiftViewController.swift; sourceTree = "<group>"; };
 		E49A5D851D5336EF00CCBE4B /* xiaoguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xiaoguo.gif; sourceTree = "<group>"; };
 		E49A5D871D5337EA00CCBE4B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E4A7CFD31D62C38200AE5C95 /* HXCurrencyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCurrencyManager.h; sourceTree = "<group>"; };
+		E4A7CFD41D62C38200AE5C95 /* HXCurrencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCurrencyManager.m; sourceTree = "<group>"; };
+		E4A7CFD81D62C38200AE5C95 /* HXCurrencySelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCurrencySelectionViewController.h; sourceTree = "<group>"; };
+		E4A7CFD91D62C38200AE5C95 /* HXCurrencySelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCurrencySelectionViewController.m; sourceTree = "<group>"; };
+		E4A7CFDA1D62C38200AE5C95 /* HXHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXHomeViewController.h; sourceTree = "<group>"; };
+		E4A7CFDB1D62C38200AE5C95 /* HXHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXHomeViewController.m; sourceTree = "<group>"; };
+		E4A7CFDC1D62C38200AE5C95 /* HXHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXHomeViewController.xib; sourceTree = "<group>"; };
+		E4A7CFDE1D62C38200AE5C95 /* HXRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXRequestManager.h; sourceTree = "<group>"; };
+		E4A7CFDF1D62C38200AE5C95 /* HXRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXRequestManager.m; sourceTree = "<group>"; };
 		E4B8246F1D51C7C90053DEB3 /* HXCurrencyConversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXCurrencyConversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B824731D51C7C90053DEB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4B824751D51C7C90053DEB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4B824761D51C7C90053DEB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E4B8247E1D51C7C90053DEB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4B824831D51C7C90053DEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4B8248C1D51C9520053DEB3 /* HXHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXHomeViewController.h; sourceTree = "<group>"; };
-		E4B8248D1D51C9520053DEB3 /* HXHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXHomeViewController.m; sourceTree = "<group>"; };
-		E4B8248E1D51C9520053DEB3 /* HXHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXHomeViewController.xib; sourceTree = "<group>"; };
 		E4B824941D51E2210053DEB3 /* currencycodetable.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = currencycodetable.plist; sourceTree = "<group>"; };
+		E4BC6D8B1D54745F00CB4CA6 /* HXHomeSwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXHomeSwiftViewController.swift; sourceTree = "<group>"; };
+		E4BC6D8D1D5477CF00CB4CA6 /* HXCurrencyConversion-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HXCurrencyConversion-Bridging-Header.h"; sourceTree = "<group>"; };
+		E4BC6D901D547B1200CB4CA6 /* HXHomeSwiftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXHomeSwiftViewController.xib; sourceTree = "<group>"; };
+		E4BC6D921D5480A700CB4CA6 /* HXRequestSwiftManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HXRequestSwiftManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,22 +63,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E49A5D7C1D52E3ED00CCBE4B /* Network */ = {
+		E4A7CFD11D62C38200AE5C95 /* OC */ = {
 			isa = PBXGroup;
 			children = (
-				E49A5D7D1D52E43400CCBE4B /* HXRequestManager.h */,
-				E49A5D7E1D52E43400CCBE4B /* HXRequestManager.m */,
+				E4A7CFD51D62C38200AE5C95 /* Main */,
+				E4A7CFD21D62C38200AE5C95 /* Currency */,
+				E4A7CFDD1D62C38200AE5C95 /* Network */,
 			);
-			path = Network;
+			path = OC;
 			sourceTree = "<group>";
 		};
-		E49A5D801D52EBD200CCBE4B /* Currency */ = {
+		E4A7CFD21D62C38200AE5C95 /* Currency */ = {
 			isa = PBXGroup;
 			children = (
-				E49A5D811D52EBE600CCBE4B /* HXCurrencyManager.h */,
-				E49A5D821D52EBE600CCBE4B /* HXCurrencyManager.m */,
+				E4A7CFD31D62C38200AE5C95 /* HXCurrencyManager.h */,
+				E4A7CFD41D62C38200AE5C95 /* HXCurrencyManager.m */,
 			);
 			path = Currency;
+			sourceTree = "<group>";
+		};
+		E4A7CFD51D62C38200AE5C95 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E4A7CFD71D62C38200AE5C95 /* ViewController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E4A7CFD71D62C38200AE5C95 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E4A7CFDA1D62C38200AE5C95 /* HXHomeViewController.h */,
+				E4A7CFDB1D62C38200AE5C95 /* HXHomeViewController.m */,
+				E4A7CFDC1D62C38200AE5C95 /* HXHomeViewController.xib */,
+				E4A7CFD81D62C38200AE5C95 /* HXCurrencySelectionViewController.h */,
+				E4A7CFD91D62C38200AE5C95 /* HXCurrencySelectionViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E4A7CFDD1D62C38200AE5C95 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E4A7CFDE1D62C38200AE5C95 /* HXRequestManager.h */,
+				E4A7CFDF1D62C38200AE5C95 /* HXRequestManager.m */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		E4B824661D51C7C90053DEB3 = {
@@ -90,11 +131,10 @@
 		E4B824711D51C7C90053DEB3 /* HXCurrencyConversion */ = {
 			isa = PBXGroup;
 			children = (
+				E4A7CFD11D62C38200AE5C95 /* OC */,
+				E4BC6D7E1D54723500CB4CA6 /* Swift */,
 				E4B824751D51C7C90053DEB3 /* AppDelegate.h */,
 				E4B824761D51C7C90053DEB3 /* AppDelegate.m */,
-				E49A5D801D52EBD200CCBE4B /* Currency */,
-				E49A5D7C1D52E3ED00CCBE4B /* Network */,
-				E4B824891D51C9250053DEB3 /* Main */,
 				E4B824721D51C7C90053DEB3 /* Supporting Files */,
 			);
 			path = HXCurrencyConversion;
@@ -112,30 +152,47 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E4B824891D51C9250053DEB3 /* Main */ = {
+		E4BC6D7E1D54723500CB4CA6 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				E4B8248A1D51C9250053DEB3 /* View */,
-				E4B8248B1D51C9250053DEB3 /* ViewController */,
+				E4BC6D801D54723500CB4CA6 /* Main */,
+				E4BC6D7F1D54723500CB4CA6 /* Currency */,
+				E4BC6D811D54723500CB4CA6 /* Network */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		E4BC6D7F1D54723500CB4CA6 /* Currency */ = {
+			isa = PBXGroup;
+			children = (
+				E440C69C1D617043002DC9BD /* HXCurrencySwiftManager.swift */,
+			);
+			path = Currency;
+			sourceTree = "<group>";
+		};
+		E4BC6D801D54723500CB4CA6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E4BC6D8D1D5477CF00CB4CA6 /* HXCurrencyConversion-Bridging-Header.h */,
+				E4BC6D821D54726500CB4CA6 /* ViewController */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		E4B8248A1D51C9250053DEB3 /* View */ = {
+		E4BC6D811D54723500CB4CA6 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				E4BC6D921D5480A700CB4CA6 /* HXRequestSwiftManager.swift */,
 			);
-			path = View;
+			path = Network;
 			sourceTree = "<group>";
 		};
-		E4B8248B1D51C9250053DEB3 /* ViewController */ = {
+		E4BC6D821D54726500CB4CA6 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				E4B8248C1D51C9520053DEB3 /* HXHomeViewController.h */,
-				E4B8248D1D51C9520053DEB3 /* HXHomeViewController.m */,
-				E4B8248E1D51C9520053DEB3 /* HXHomeViewController.xib */,
-				E49A5D791D52E19A00CCBE4B /* HXCurrencySelectionViewController.h */,
-				E49A5D7A1D52E19A00CCBE4B /* HXCurrencySelectionViewController.m */,
+				E4BC6D8B1D54745F00CB4CA6 /* HXHomeSwiftViewController.swift */,
+				E4BC6D901D547B1200CB4CA6 /* HXHomeSwiftViewController.xib */,
+				E440C69E1D6198A8002DC9BD /* HXCurrencySelectionSwiftViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -171,6 +228,7 @@
 				TargetAttributes = {
 					E4B8246E1D51C7C90053DEB3 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = T42HZ6WKUR;
 					};
 				};
 			};
@@ -197,8 +255,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4BC6D911D547B1200CB4CA6 /* HXHomeSwiftViewController.xib in Resources */,
+				E4A7CFE31D62C38200AE5C95 /* HXHomeViewController.xib in Resources */,
 				E4B8247F1D51C7C90053DEB3 /* Assets.xcassets in Resources */,
-				E4B824901D51C9520053DEB3 /* HXHomeViewController.xib in Resources */,
 				E4B824951D51E2210053DEB3 /* currencycodetable.plist in Resources */,
 				E49A5D861D5336EF00CCBE4B /* xiaoguo.gif in Resources */,
 			);
@@ -211,13 +270,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E49A5D7F1D52E43400CCBE4B /* HXRequestManager.m in Sources */,
+				E440C69F1D6198A8002DC9BD /* HXCurrencySelectionSwiftViewController.swift in Sources */,
+				E4A7CFE21D62C38200AE5C95 /* HXHomeViewController.m in Sources */,
 				E4B824771D51C7C90053DEB3 /* AppDelegate.m in Sources */,
-				E49A5D7B1D52E19A00CCBE4B /* HXCurrencySelectionViewController.m in Sources */,
 				E49A5D881D5337EA00CCBE4B /* README.md in Sources */,
-				E4B8248F1D51C9520053DEB3 /* HXHomeViewController.m in Sources */,
-				E49A5D831D52EBE600CCBE4B /* HXCurrencyManager.m in Sources */,
+				E4BC6D8C1D54745F00CB4CA6 /* HXHomeSwiftViewController.swift in Sources */,
+				E4A7CFE01D62C38200AE5C95 /* HXCurrencyManager.m in Sources */,
+				E4A7CFE11D62C38200AE5C95 /* HXCurrencySelectionViewController.m in Sources */,
 				E4B824741D51C7C90053DEB3 /* main.m in Sources */,
+				E440C69D1D617043002DC9BD /* HXCurrencySwiftManager.swift in Sources */,
+				E4A7CFE41D62C38200AE5C95 /* HXRequestManager.m in Sources */,
+				E4BC6D931D5480A700CB4CA6 /* HXRequestSwiftManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,11 +372,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = HXCurrencyConversion/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = blog.libuqing.com.HXCurrencyConversion;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiss.yiapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HXCurrencyConversion/Swift/Main/HXCurrencyConversion-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -322,11 +391,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = HXCurrencyConversion/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = blog.libuqing.com.HXCurrencyConversion;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiss.yiapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HXCurrencyConversion/Swift/Main/HXCurrencyConversion-Bridging-Header.h";
 			};
 			name = Release;
 		};

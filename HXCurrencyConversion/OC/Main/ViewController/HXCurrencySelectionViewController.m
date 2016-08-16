@@ -80,9 +80,6 @@
     //货币名称
     NSString *currencyName = [kCurrencyManager toCurrencyName:str];
     
-    cell.textLabel.text = currency;
-    cell.detailTextLabel.text = currencyName;
-    
     if (_searchText.length > 0) {
         cell.textLabel.attributedText = [self searchTitle:currency key:_searchText keyColor:[UIColor redColor]];
         cell.detailTextLabel.attributedText = [self searchTitle:currencyName key:_searchText keyColor:[UIColor redColor]];
@@ -91,7 +88,7 @@
         cell.detailTextLabel.text = currencyName;
     }
     
-    if (_currentCurrency.length > 0 && currency.length > 0) {
+    if (_currentCurrency.length > 0) {
         if([_currentCurrency rangeOfString:currency].location != NSNotFound)
         {
             cell.accessoryType = UITableViewCellAccessoryCheckmark;

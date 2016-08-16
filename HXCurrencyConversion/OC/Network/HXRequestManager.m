@@ -19,7 +19,7 @@
  *  @param failure <#failure description#>
  */
 - (void)getCurrencySupportListRequest:(void(^)(NSArray *responseAry, NSInteger responseCode))success
-                              failure:(void(^)(NSString *localizedDescription, NSInteger code))failure {
+                              failure:(void(^)(NSString *localizedDescription))failure {
     
     NSString *httpUrl = @"http://apis.baidu.com/apistore/currencyservice/type";
     NSString *httpArg = @"";
@@ -34,7 +34,7 @@
                                        queue:[NSOperationQueue mainQueue]
                            completionHandler:^(NSURLResponse *response, NSData *data, NSError *error){
                                if (error) {
-                                   failure(error.localizedDescription,error.code);
+                                   failure(error.localizedDescription);
                                } else {
                                    NSInteger responseCode = [(NSHTTPURLResponse *)response statusCode];
                                    NSDictionary *dic = [self toArrayOrNSDictionary:data];
@@ -57,7 +57,7 @@
                                               toCurrency:(NSString *)toCurrency
                                                   amount:(NSString *)amount
                                                  success:(void(^)(NSDictionary *responseDic, NSInteger responseCode))success
-                                                 failure:(void(^)(NSString *localizedDescription, NSInteger code))failure {
+                                                 failure:(void(^)(NSString *localizedDescription))failure {
     NSString *httpUrl = @"http://apis.baidu.com/apistore/currencyservice/currency";
     NSString *httpArg = [NSString stringWithFormat:@"fromCurrency=%@&toCurrency=%@&amount=%@",fromCurrency,toCurrency,amount];
     
@@ -70,20 +70,11 @@
                                        queue:[NSOperationQueue mainQueue]
                            completionHandler:^(NSURLResponse *response, NSData *data, NSError *error){
                                if (error) {
-                                   failure(error.localizedDescription,error.code);
+                                   failure(error.localizedDescription);
                                } else {
                                    NSInteger responseCode = [(NSHTTPURLResponse *)response statusCode];
                                    NSDictionary *dic = [self toArrayOrNSDictionary:data];
                                    NSDictionary *responseDic = dic[@"retData"];
-                                   
- 
-                                   //                               date: "2015-08-12",  //日期
-                                   //                               time: "07:10:46",    //时间
-                                   //                               fromCurrency: "CNY", //待转化币种的简称，这里为人民币
-                                   //                               amount: 2,    //转化的金额
-                                   //                               toCurrency: "USD",  //转化后的币种的简称，这里为美元
-                                   //                               currency: 0.1628,   //当前汇率
-                                   //                               convertedamount: 0.3256  //转化后的金额
 
                                    success(responseDic,responseCode);
                                }
